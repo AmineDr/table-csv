@@ -1,5 +1,6 @@
 {
   "name": "table-csv",
+  "description": "A lightweight vibecoded TypeScript library for generating and downloading CSV files",
   "version": "0.0.1",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -19,6 +20,14 @@
     "build": "tsc -b && vite build"
   },
   "devDependencies": {
+    "@typescript/typescript6": "^6.0.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4",
     "vite-plugin-dts": "^5.1.2"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:AmineDr/table-csv.git"
   }
 }
